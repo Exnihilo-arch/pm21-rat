@@ -38,6 +38,12 @@ jupyter notebook
 
 ## Troubleshooting
 
+### Anaconda not finding Visual Studio on Windows
+
+For Anaconda on Windows computers, I had an error which was fixed by installing Visual Studio 2017 Community Edition (free).
+Download "Visual Studio 2017 community edition" from https://visualstudio.microsoft.com/vs/older-downloads/ . Run the installer.
+Select "Desktop development with C++" under workloads and install that.
+
 ### Cannot run Jupyter notebook on Windows
 
 I was getting the following error when trying to run jupyter notebook on Windows:
